@@ -1,0 +1,62 @@
+/* Тут находятся все шрифты */
+/* Подключение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Сброс стандартных шрифтов */
+html {
+    color: #333333;
+    font: 400 10px/1.25 "Monserrat", sans-serif;
+}
+
+/* Быстрые начертания */
+.cr_white {
+    color: #ffffff;
+}
+
+.cr-standart {
+    color: #333333;
+}
+
+.cr-accent {
+    color: #4E00CC;
+}
+
+.fs-12 {
+    font-size: 1.2rem;
+}
+
+.fs-14 {
+    font-size: 1.4rem;
+}
+
+.fs-16 {
+    font-size: 1.6rem;
+}
+
+.fs-18 {
+    font-size: 1.8rem;
+}
+
+.fs-20 {
+    font-size: 2.0rem;
+}
+
+.fs-24 {
+    font-size: 2.4rem;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}

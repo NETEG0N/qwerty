@@ -1,0 +1,36 @@
+/* Тут находятся стили главной страницы */
+body {
+    width: 100vw;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#header, #main, #footer {
+    height: 100%;
+}
+
+.container>.inner {
+    max-width: 560px;
+}
+
+#header .nav_list {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .inner {
+    padding-top: 25px;
+}
+
+#footer .inner {
+    height: 100%;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 20px;
+}
+
+#footer .copyrite {
+    width: 163px;
+    height: 15px;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Главная | Aurora Profile</title>
+        <link rel="stylesheet" type="text/css" href="/src/css/base.css">
+        <link rel="stylesheet" type="text/css" href="/src/css/main-page.css">
+        <link rel="stylesheet" type="text/css" href="/src/css/form-kit.css">
+        <link rel="stylesheet" type="text/css" href="/src/css/font.css">
+    </head>
+    <body class="flex interactive_bg">
+        <header id="header">
+            <div class="container">
+                <div class="inner">
+                    <nav class="nav_menu">
+                        <ul class="nav_list flex">
+                            <li class="nav_item"><a class="link_underline fs-18 fw-500 cr_white" href="/index.php">Назад</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main id="main">
+            <div class="container">
+                <div class="inner">
+                    <div class="content">
+                        <div class="form_container">
+                            <div class="form_logo"></div>
+                            <div class="form_inner">
+                                <form id="registration_form" class="form_content">
+                                    <h1 class="form_heading">Создание цифрового профиля</h1>
+                                    <div class="trible_block flex">
+                                        <div class="input_block">
+                                            <label for="second_name_input">Фамилия:</label>
+                                            <input id="second_name_input" class="form_text_input" name="first_name_input" type="text" placeholder="Фамилия">
+                                        </div>
+                                        <div class="input_block">
+                                            <label for="first_name_input">Имя:</label>
+                                            <input id="first_name_input" class="form_text_input" name="second_name_input" type="text" placeholder="Имя">
+                                        </div>
+                                        <div class="input_block">
+                                            <label for="third_name_input">Отчество:</label>
+                                            <input id="third_name_input"  class="form_text_input" name="third_name_input" type="text" placeholder="Отчество">
+                                        </div>
+                                    </div>
+                                    <div class="double_block flex">
+                                        <div class="input_block">
+                                            <label for="email_input">Электронная почта:</label>
+                                            <input id="email_input" class="form_text_input" name="email_input" type="text" placeholder="super@you.me">
+                                        </div>
+                                        <div class="input_block">
+                                            <label for="phone_input">Номер телефона:</label>
+                                            <input id="phone_input" class="form_text_input" name="phone_input" type="text" placeholder="7 (123) 123-12-12">
+                                        </div>
+                                    </div>
+                                    <div class="input_block">
+                                        <label for="password_input">Придумайте пароль:</label>
+                                        <input id="password_input" class="form_text_input" name="password_input" type="password" placeholder="Пароль">
+                                    </div>
+                                    <div class="input_block">
+                                        <label for="password_check_input">Повторите придуманный пароль:</label>
+                                        <input id="password_check_input" class="form_text_input" name="password_check_input" type="password" placeholder="Повторите пароль">
+                                    </div>
+                                    <p class="form_error_text"></p>
+                                    <button type="submit" class="form_btn_1">Зарегистрироваться</button>
+                                    <a class="form_link link_underline" href="/pages/authorization.php">У вас уже есть цифровой профиль?</a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer">
+            <div class="container">
+                <div class="inner flex">
+                    <img class="copyrite" src="/src/img/© Copyrite by Aurora Team.png" alt="Copyrite">
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="/src/js/libs/vanta-js/three.min.js"></script>
+    <script src="/src/js/libs/vanta-js/vanta.globe.min.js"></script>
+    <script src="/src/js/registration.js"></script>
+</html>

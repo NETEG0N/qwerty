@@ -1,0 +1,142 @@
+/* Тут находятся стили формы */
+.form_container {
+    position: relative;
+    background: #ffffff;
+    outline: 2px solid #C5C5C5;
+    border-radius: 12px;
+}
+
+.form_container .form_inner {
+    height: 100%;
+    padding: 25px 30px 35px;
+    text-align: center;
+}
+
+.form_container .form_heading {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form_container .form_description {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.form_container .form_link {
+    display: block;
+    color: #4E00CC;
+    font-size: 1.4rem;
+    margin-top: 8px;
+}
+
+.form_container .form_btn_1, .form_container .form_btn_2 {
+    display: inline-block;
+    min-width: 385px;
+    height: 48px;
+    padding: auto;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease-out;
+}
+
+.form_container .form_btn_1 {
+    color: #ffffff;
+    margin: 20px 0px 10px;
+    background: #4E00CC;
+} 
+
+.form_container .form_btn_2 {
+    color: #4E00CC;
+    border: 2px solid #4E00CC;
+}
+
+.form_container .form_btn_1:hover, .form_container .form_btn_2:hover {
+    transform: scale(1.05);
+}
+
+.form_container .form_logo {
+    position: absolute;
+    top: -196px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    width: 226px;
+    height: 226px;
+    background: url("/src/img/logo.svg") center/cover;
+}
+
+.form_container .input_block {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 385px;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.form_container .input_block input {
+    display: block;
+    height: 42px;
+    padding: 0px 10px;
+    text-align: center;
+    border: 2px solid #C5C5C5;
+    border-radius: 4px;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.form_container .input_block input:focus {
+    border-color: #4E00CC;
+}
+
+.form_container .input_block label {
+    display: block;
+    color: #8F8F8F;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.form_container .input_block input::placeholder {
+    color: #8F8F8F;
+}
+
+.form_container .form_error_text {
+    color: #ff0000;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.error_input {
+    border-color: #ff0000 !important;
+}
+
+.trible_block {
+    display: inline-flex;
+    min-width: 385px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.double_block {
+    display: inline-flex;
+    min-width: 385px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trible_block>.input_block {
+    width: 121px;
+}
+
+.double_block>.input_block {
+    width: 187px;
+}
+
+.null {
+    position: inherit;
+    background: none;
+    outline: none;
+    border-radius: none;
+}
